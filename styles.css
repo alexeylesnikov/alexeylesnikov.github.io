@@ -43,6 +43,23 @@ p {
     background-size: cover;
 }
 */
+/*My Skills*/
+.my_skills{
+  color: black;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 5px 10px 5px 10px;
+  background: #cfcdcd;
+  position: relative;
+  font-size: 1em;
+  border-radius: 10px;
+}
+.my_skills:hover { 
+    background: #fff;
+}
+/*My Skills*/
+
 
 #header img {
     display: block;
@@ -69,24 +86,6 @@ p {
     text-align: right;
     margin-top: 10px;
 }
-table {
-    width: 100%;
-}
-table, th, td {
-    border: 2px solid #cecece;
-    border-collapse: collapse;
-    text-align: center;
-    table-layout: fixed;
-}
-.selected {
-    background-color: #f36f48;
-    font-weight: bold;
-    color: white;
-}
-li {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
 progress {
     width: 70%;
     height: 20px;
@@ -94,14 +93,14 @@ progress {
     background: #efefef;
 }
 progress::-webkit-progress-bar {
-    background: #efefef;
+    background: #3fb6b2;
 }
 progress::-webkit-progress-value {
     background: #3fb6b2;
 } 
 progress::-moz-progress-bar {
     color: #3fb6b2;
-    background: #efefef;
+    background: #75FE5F;
 }
 iframe, audio {
     display: block;
@@ -166,10 +165,4 @@ input, textarea {
 }
 #contacts {
     text-align: center;
-}
-.copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
 }
