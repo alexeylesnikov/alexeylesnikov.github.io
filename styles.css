@@ -3,7 +3,7 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family: 'Source Sans Pro', cursive;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
@@ -34,10 +34,13 @@ p {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+/*
 #header {
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     background-size: cover;
 }
+*/
+
 #header img {
     display: block;
     width: 80px;
