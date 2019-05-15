@@ -58,6 +58,9 @@ p {
 .my_skills:hover { 
     background: #fff;
 }
+myskills span{
+    display: block;
+}
 /*My Skills*/
 
 
