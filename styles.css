@@ -1,8 +1,8 @@
 html {
     margin: 0;
     padding: 0;
-    
 }
+/*Background&FontSettings*/
 body {
     background-image: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/abstract-photo-art-background-1022928.jpg");
     background-position: center;
@@ -13,38 +13,49 @@ body {
     padding: 10px;
     margin: 0;
 }
+/*HeadingSettings*/
 h1 {
     font-size: 15pt;
-
     text-align: center;
-    padding: 18px 0 18px 0;
+    padding: 8px 0 10px 0;
     margin: 0 0 10px 0;
-    
 }
-
+/*AboutMeSettings*/
 p {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     text-align: center;
-    
 }
+/*HeaderIconBorder*/
 .img-circle {
     border: 3px solid white;
     border-radius: 50%;
 }
-
-
+/*HeaderBackground*/
 #header {
     background-image: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/4k-wallpaper-aluminum-architectural-210158.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/*HeaderIcon*/
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+/*HeaderText*/
+#header p {
+    font-size: 25pt;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
 /*My Skills*/
 .my_skills{
   color: black;
   display: inline-block;
-  
   margin-right: 4px;
   margin-bottom: 4px;
   padding: 5px 10px 5px 10px;
@@ -58,23 +69,7 @@ p {
 .my_skills:hover { 
     background: #fff;
 }
-/*My Skills*/
-
-
-#header img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-}
-#header p {
-    font-size: 25pt;
-
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-}
+/*BodyTextures*/
 .section {
     background: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/jesus-kiteque-224069-unsplash1.jpg");
     background-size: cover;
@@ -84,26 +79,19 @@ p {
     border-radius: 10px;
     border: 3px solid black;
 }
-
+/*BodyPossitionControl*/
 div.section {
-  
   max-width: 1000px;
   margin: 1;
   margin-left: auto;
   margin-right: auto;
-
 }
-
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
-}
-
+/*ContactPosition*/
 form {
     text-align: center;
     margin-top: 0;
 }
+/*SendButtonProperties*/
 .submit {
     background-color: #3fb6b2;
     padding: 12px 45px;
@@ -114,11 +102,11 @@ form {
     outline: none;
     margin: 0;
     font-weight: bold;
-    
 }
 .submit:hover {
     background-color: #43a09d;
 }
+/*InputSettings*/
 textarea {
     height: 100px;
 }
@@ -133,7 +121,7 @@ input, textarea {
     width: 70%;
     outline: none;
 }
-
+/*ContactSettings*/
 #contacts img {
     height: 50px;
     width: 50px;
