@@ -89,6 +89,8 @@ myskills span{
 div.section {
   max-width: 1000px;
   margin: 1%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .quote {
     font-size: 12pt;
