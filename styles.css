@@ -38,12 +38,7 @@ p {
     border: 3px solid white;
     border-radius: 50%;
 }
-.section {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
+
 /*
 #header {
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
@@ -90,6 +85,10 @@ myskills span{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+div.section {
+  max-width: 1000px;
+  margin: auto;
 }
 .quote {
     font-size: 12pt;
