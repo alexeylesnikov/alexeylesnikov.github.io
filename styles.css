@@ -1,15 +1,12 @@
-@charset "utf-8";
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
-
 html {
     margin: 0;
     padding: 0;
+    
 }
 body {
+    background-image: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/abstract-photo-art-background-1022928.jpg");
+    background-position: center;
+    background-size: cover;
     font-family: 'Source Sans Pro', cursive;
     font-size: 13pt;
     background-color: #efefef;
@@ -22,46 +19,44 @@ h1 {
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
+    
 }
-/*
-h1 span {
-    border: 4px dashed #20bcd5;
-    padding: 10px;
-}
-*/
+
 p {
     padding: 0;
     margin: 0;
     text-align: center;
+    
 }
 .img-circle {
     border: 3px solid white;
     border-radius: 50%;
 }
 
-/*
+
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-image: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/4k-wallpaper-aluminum-architectural-210158.jpg");
     background-size: cover;
+    background-position: center;
 }
-*/
+
 /*My Skills*/
 .my_skills{
   color: black;
   display: inline-block;
+  
   margin-right: 4px;
   margin-bottom: 4px;
   padding: 5px 10px 5px 10px;
-  background: #cfcdcd;
+  background: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/jesus-kiteque-224069-unsplash2.jpg");
+  border: 2px solid black;
   position: relative;
   font-size: 1em;
   border-radius: 10px;
+  text-align: center;
 }
 .my_skills:hover { 
     background: #fff;
-}
-myskills span{
-    display: block;
 }
 /*My Skills*/
 
@@ -81,48 +76,30 @@ myskills span{
     text-align: center;
 }
 .section {
-    background-color: #E2E1E1;
+    background: url("https://raw.githubusercontent.com/alexeylesnikov/alexeylesnikov.github.io/master/jesus-kiteque-224069-unsplash1.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+    border: 3px solid black;
 }
+
 div.section {
+  
   max-width: 1000px;
-  margin: 1%;
+  margin: 1;
   margin-left: auto;
   margin-right: auto;
+
 }
-.quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
-}
-progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
-}
-progress::-webkit-progress-bar {
-    background: #3fb6b2;
-}
-progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #75FE5F;
-}
+
 iframe, audio {
     display: block;
     margin: 0 auto;
     border: 3px solid #3fb6b2;
 }
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
-}
+
 form {
     text-align: center;
     margin-top: 0;
@@ -137,6 +114,7 @@ form {
     outline: none;
     margin: 0;
     font-weight: bold;
+    
 }
 .submit:hover {
     background-color: #43a09d;
@@ -155,13 +133,7 @@ input, textarea {
     width: 70%;
     outline: none;
 }
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
-}
+
 #contacts img {
     height: 50px;
     width: 50px;
