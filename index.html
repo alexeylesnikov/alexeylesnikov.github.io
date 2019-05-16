@@ -99,12 +99,20 @@ incidents and provide assistance </li>
 		<!-- Form section start -->
        <div class="section">
             <h1><span>Contact Me</span></h1>  
-            <form>
+						<form name="input" method="POST" action="https://formspree.io/alesnikov@gmail.com">
+							Name: <input type="text" name="Name" placeholder="Your name">
+							Eamil: <input type="email" name="_replyto" placeholder="Yuor email">
+							Message: <textarea name="message" placeholder="Type your message"></textarea>
+							<input type="submit" value="Send">
+							<input type="hidden" name="_subject" value="Enter your subject here" />
+							
+						</form>
+            <!--<form>
                 <input name="name" placeholder="Name" type="text" required /><br/>
                 <input name="email" placeholder="Email" type="email" required /><br/>
                 <textarea name="message" placeholder="Message" required ></textarea>
                 <input type="submit" value="SEND" class="submit" />
-            </form>
+            </form>-->
         </div>
         <!-- Form section end -->
         
