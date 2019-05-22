@@ -35,14 +35,33 @@
        <div class="section">
             <h1><span>Style Contact Form</span></h1>  
 						<form name="input" method="POST" action="https://formspree.io/alesnikov@ryerson.ca">
-							<input type="text" name="namr" class="myInput" placeholder="Your name">
-							<input type="text" name="email" class="myInput" placeholder="Your email">
-							<input type="text" name="username" class="myInput" placeholder="Your username">
-							<input type="text" name="province" class="myInput" placeholder="Your province">
-							<input type="text" name="postal code" class="myInput" placeholder="Your postal code">
-							<input type="submit" name="go" value="Create" class="submit">
-							<input type="hidden" name="_subject" value="Enter your subject here" />
-							
+							<br>Your name:<br>
+							<input type="text" name="name" class="myInput" placeholder="Your name" pattern="[A-Za-z]{2,}" required="yes">
+							<br>Your email:<br>
+							<input type="text" name="email" class="myInput" placeholder="Your email" pattern="[a-z]+@[a-z]+\.[a-z]{2,}$" required="yes">
+							<br>Your username:<br>
+							<input type="text" name="username" class="myInput" placeholder="Your username" pattern="[a-z]+[0-9]{0,}$" required="yes">
+							<br><p>Your province</p>
+							<select name="province" form="input" >
+							<option value="AB">AB</option>
+  						<option value="BC"selected>BC</option>
+ 							<option value="MB">MB</option>
+ 							<option value="NB">NB</option>
+ 							<option value="NL">NL</option>
+							<option value="NS">NS</option>
+							<option value="NT">NT</option>
+							<option value="NU">NU</option>
+							<option value="ON">ON</option>
+							<option value="PE">PE</option>
+							<option value="QC">QC</option>
+							<option value="SK">SK</option>
+							<option value="YT">YT</option>
+							</select>
+							<br>
+							Your postal code:<br>
+							<input type="text" name="postal code" class="myInput" placeholder="Your postal code" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" required="yes">
+							<input type="submit" value="Submit" class="submit">
+							<input type="hidden" name="_subject" value="Enter your subject here" />							
 						</form>
         </div>
         <!-- Form section end -->
