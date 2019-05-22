@@ -8,7 +8,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
 	</head>
-	
 	<body>
 		<!--Header Start-->
 		<div id="header" class="section">
@@ -17,35 +16,30 @@
 		</div>
 		<!--Header End-->
 		
-		<!-- Menu Start -->
-        <div class="section">
-			<a href="index.html">Home</a> <a href="lab3.html">Lab 3 Animals</a> <a href="Style.html">Lab 3 Style</a>
-        </div>
-        <!-- Menu End -->
-		
 		<!-- About Start -->
         <div class="section">
             <h1><span>Lab 3</span></h1>
             <p>
-				<span>This is my Lab 3 Animals submission for the CCPS530 Summer 2019 Course.</span>
+				<span>This is my Lab 3 submission for the CCPS530 Summer 2019 Course.</span>
             </p>
         </div>
         <!-- About End -->
 
 		<!-- Form section start -->
        <div class="section">
-            <h1><span>Contact Me</span></h1>  
-						<form name="input" method="POST" action="https://formspree.io/alesnikov@ryerson.ca">
-							<input type="text" name="animal2" class="myInput" placeholder="Your animal">
-							<input type="number" name="dexterity" min="1" max="15" class="myInput" placeholder="Your animals dexterity">
-
+            <h1><span>Animal Maker</span></h1>  
+							<!--I would use the processFrom.php here but, github is a static page provider and does not support php. This is why I am using formspree.io service that forwards all filled forms from my website to my email.-->
+							<!--<form method="POST" action="processForm.php">-->
+							<form name="input" method="POST" action="https://formspree.io/alesnikov@ryerson.ca">
+							<input type="text" name="animal1" class="myInput" placeholder="Your first animal" required="yes">
+							<input type="text" name="animal2" class="myInput" placeholder="Your second animal" required="yes">
+							<input type="number" name="hitPoints" min="1" max="99" class="myInput" placeholder="Your animals hitpoints" required="yes">
+							<input type="number" name="dexterity" min="1" max="15" class="myInput" placeholder="Your animals dexterity" required="yes">
+							<input type="colour" name="colour" for="colour" class="myInput" placeholder="Your animals colour" required="yes">
 							<input type="submit" name="go" value="Create" class="myInput">
 							<input type="hidden" name="_subject" value="Enter your subject here" />
-							
 						</form>
         </div>
         <!-- Form section end -->
-        
-
 	</body>
 </html>
